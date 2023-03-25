@@ -1,0 +1,5 @@
+var images = ["https://lorena.r7.com/public/assets/img/galeria-imagens/roger-guedes.jpg", "https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2016/05/179.jpg", "https://akns-images.eonline.com/eol_images/Entire_Site/201909/rs_600x600-190109152451-600x600-cristianoronaldo-gj-1-9-19.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top", "https://th.bing.com/th/id/R.ba524b28391bd8ba1e6d0c9af8ec9410?rik=d7gK1fKVyvDkfw&riu=http%3a%2f%2fcontenti1.espn.com.br%2fimage%2fvertical%2f300_41f919a0-d1de-33dd-96f6-49e2ebc5379b.png&ehk=qs58tVdm7bkqwJF9buHo0MaIACo%2f64DSzc4F58MiXoM%3d&risl=&pid=ImgRaw&r=0", "https://www.fnvsports.com.br/wp-content/uploads/2021/08/adson-comemora-gol-do-corinthians-na-partida-contra-o-ceara-no-brasileirao-1629057205013_v2_3x4.jpg"];
+  var i=0;
+  function proximoslide() { if (i == 5) { i = 0; }
+   document.getElementById("album").src = images[i];
+ i++; }
